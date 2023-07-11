@@ -1,0 +1,321 @@
+
+
+/* all area shared style starts from here */
+
+*{
+    margin:0;
+    padding:0;
+    font-family: cursive;
+    font-weight: bolder;
+}
+
+/* header part starts from here */
+
+.heading-part{
+
+    background-color: #E7CDCD;
+    height:95vh;
+}
+.info-section{
+    padding-top:120px;
+}
+.intro-part{
+
+    display: flex;
+    width:74%;
+    margin:0 auto;
+}
+.info-heading{
+    font-size:50px;
+    margin-bottom:10px;
+}
+.info-desc{
+    width:80%;
+    margin-bottom: 20px;
+    color:gray;
+}
+.profile-style{
+    width:400px;
+    height:550px;
+    padding-top: 35px;
+}
+.btn{
+    padding:15px 25px;
+    border-radius: 12px;
+    border:none;
+    background-color: #9D1553;
+    color:white;
+}
+
+/* header part ends here */
+
+
+
+/* main part starts from here */
+
+
+/* featured section starts from here */
+.featured-section{
+    margin-bottom:80px;
+    margin-top:100px;
+}
+.featured-info{
+   text-align: center;
+   margin-top:50px;
+   margin-bottom:30px;
+}
+.featured-heading{
+    margin-bottom: 15px;
+}
+.featured-desc{
+    width:50%;
+    margin:0 auto;
+    color: gray;
+}
+
+.featured-flower-images{
+    display: flex;
+    justify-content: space-evenly;
+}
+.pink-rose-contianer{
+    text-align: center;
+    max-width:300px;
+    padding-left:110px;
+}
+.pink-rose{
+    background-color: #E7CDCD;
+    height: 350px;
+    width:320px;
+    border-radius:200px 200px 0 0;
+    margin-bottom:20px;
+}
+.featured-image-style{
+    height:300px;
+    margin-top:50px;
+}
+.flower-title{
+    text-decoration: underline;
+}
+.mix-flowers-contaier{
+    text-align: center;
+    max-width:300px;
+}
+.mix-flowers{
+    background-color: #A9F8F4;
+    height: 350px;
+    width:320px;
+    border-radius:200px 200px 0 0;
+    margin-bottom:20px;
+}
+.yellow-rose-container{
+    text-align: center;
+    max-width:300px;
+    padding-right: 110px;
+}
+.yellow-rose{
+    background-color: #D8F1B8;
+    height: 350px;
+    width:320px;
+    border-radius:200px 200px 0 0;
+    margin-bottom:20px;
+}
+
+/* featured section ends here */
+
+
+
+/* most sold section starts from here  */
+.most-sold-flower-container{
+    height:500px;
+    width:80%;
+    background-color: lightgrey;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    padding-bottom:30px;
+    margin:0 auto;
+    margin-bottom: 70px;
+    border-radius: 12px;
+}
+.most-sold-flower-info{
+    width:60%;
+    margin:0 auto;
+    text-align: center;
+}
+.sold-info{
+    margin-bottom: 40px;
+}
+.sold-heading{
+    margin-bottom: 15px;
+    color:red;
+}
+.sold-desc{
+    margin-bottom: 20px;
+    color:gray;
+}
+.appreciate-info{
+    color:darkred;
+}
+.sold-images{
+    display: flex;
+    gap:50px;
+    justify-content: center;
+}
+.red-roses-style{
+    height:200px;
+    width:170px;
+    background-color: #677867;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.red-roses-design{
+    height: 150px;
+    padding-top:40px;
+}
+.mix-flower-style{
+    height:200px;
+    width:170px;
+    background-color: #B0A68E;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.mix-flower-design{
+    height: 150px;
+    padding-top:40px;
+}
+/* most sold section ends here */
+
+
+
+/* discount section starts from here */
+.discount-container{
+
+    background-color: #E4D2DC;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+    margin-bottom: 100px;
+}
+.discount-about{
+    width:40%;
+    text-align: center;
+    padding-left:130px;
+}
+.discount-title{
+    margin-bottom:20px;
+}
+.discount-info{
+    margin-bottom: 30px;
+    color:gray;
+}
+.discount-image-style{
+    width:220px;
+    height:300px;
+    padding-right: 170px;
+}
+.primary{
+    color:#9D1553;
+}
+/* discount section ends here */
+
+
+/* instagram section starts from here */
+.instagram-section{
+    display:flex;
+    width:80%;
+    margin:0 auto;
+    margin-bottom:60px;
+}
+.instagram-about{
+    margin-bottom: 40px;
+}
+.instagram-heading{
+    margin-bottom: 20px;
+}
+.instagram-desc{
+    color:gray;
+}
+.instagram-container{
+    text-align: center;
+    margin-left: 50px;
+}
+.instagram-images{
+
+    display: flex;
+    gap:20px;
+    justify-content: center;
+}
+.instagram-image-style{
+    height:250px;
+    border-radius: 15px 0 15px 0;
+}
+/* instagram section ends here */
+
+
+/* subscribe section starts from here */
+.subscribe-section{
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.subscribe-container{
+    background-image: url('Flower Asset/Rectangle 9.png');
+    background-size: cover;
+    width:950px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin:0 auto;
+
+    
+}
+.subscribe-info{
+    height:200px;
+    text-align: center;
+    padding-top:80px;;
+}
+.subscribe-heading{
+    margin-bottom: 5px;
+}
+.subscribe-desc{
+    margin-bottom: 30px;
+}
+input{
+    width:400px;
+    height:45px;
+    border-radius: 10px;
+    border:none;
+}
+#email{
+    padding-left: 50px;
+}
+/* subscribe section ends here */
+
+
+
+/* footer section starts from here */
+.footer-section{
+    background-color: black;
+    height:350px;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.footer-container{
+    width:45%;
+}
+.footer-title{
+    margin-bottom:20px;
+}
+.footer-desc{
+    margin-bottom:20px;
+}
+.copyright-info{
+    color:gray;
+}
+/* footer section ends here */
